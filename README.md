@@ -15,3 +15,6 @@ They are assigned to use the template to build their section and then add in the
 5. Avoid using .containers, .aside, as your class names and use .container-gallery, .aside-gallery as class names.
 6. dont use tag specific selection like p , a , li , etc give them a class and then use that to add CSS.
 
+## Template link 
+https://bootstrapmade.com/flexstart-bootstrap-startup-template/
+Whatever section is required , you can use this template.
