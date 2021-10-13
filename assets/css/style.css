@@ -464,7 +464,7 @@ section {
 .values .box img {
   padding: 30px 50px;
   transition: 0.5s;
-  transform: scale(1.1);
+  transform: scale(0.75);
 }
 .values .box h3 {
   font-size: 24px;
@@ -634,3 +634,8 @@ section {
   font-size: 13px;
   color: #012970;
 }
+/*...................................................added by us............................*/
+/*.box img {
+  height: 250px;
+  width: 250px;
+}*/
