@@ -745,24 +745,48 @@ section {
 # Custom
 --------------------------------------------------------------*/
 
-.logohead{
+.logosatt{
   width: 100%;
   height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
-.logohead img{
-  height: 300px;
-  width: 300px;
-  border: 2px solid black;
+.logosatt img{
+  width: 250px;
+}
+.logosatt div{
+  position: relative;
+  top: 50px;
+  left: 20px;
+  border-bottom: 5px solid black;
+}
+.logosatt h3{
+  font-weight: 1000;
+}
+
+@media (max-width: 991px) {
+  .logosatt{
+    flex-direction: column;
+  }
+  .logosatt div{
+    border-bottom: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    left:0px;
+  }
+  .logosatt p{
+    width: fit-content;
+    border-bottom: 3px solid black;
+  }
 }
 
 
 .col-lg-3{
-  margin: 3% 1%;
+  margin: 3% 1.5%;
   padding: 0px;
-  width: 23%;
+  width: 22%;
 
   transition: 0.3s;
 }
@@ -770,13 +794,13 @@ section {
 @media (max-width:991px) {
   
 .col-lg-3{
-  width: 31%;
+  width: 30%;
 }
 }
 @media (max-width:768px) {
   
 .col-lg-3{
-  width: 48%;
+  width: 47%;
 }
 }
 @media (max-width:500px) {
@@ -828,7 +852,7 @@ section {
   padding-top: 20px;
 }
 
-.readmore{
+.explore{
   box-shadow: inset 0px -20px 100px rgb(199, 199, 199);
   position: absolute;
   bottom: 0px;
@@ -839,14 +863,14 @@ section {
   opacity: 0;
   transition : 0.3s;
 }
-.readmore p{
+.explore p{
   width: fit-content;
   position: absolute;
   bottom: -10px;
   right: 5px;
   
 }
-.values .box:hover .readmore{
+.values .box:hover .explore{
   opacity: 1;
   transition: 0.3s;
 }
