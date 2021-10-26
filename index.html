@@ -40,17 +40,6 @@
 <body>
 
 
-  
-  <!-- ======= Logo Section ======= -->
-  <div class="logosatt hero d-flex align-items-center" data-aos="fade-up" id="home">
-    <img src="assets/img/satt.png" alt="">
-    <div>
-    <h3>Startup Acceleration Think Tank</h3>
-    <p>VSSUT , BURLA</p>
-    </div>
-  </div>
-
-
   <!-- ======= Header ======= -->
   <header id="header" class="header fixed-top">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
@@ -66,6 +55,7 @@
           <li><a class="nav-link scrollto" href="#hero">About Us</a></li>
           <li><a class="nav-link scrollto" href="#values">Explore Startups</a></li>
           <li><a class="nav-link scrollto" href="#events">Upcoming Events</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact Us</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -73,26 +63,37 @@
     </div>
   </header><!-- End Header -->
 
+  
+  <!-- ======= Logo Section ======= -->
+  <div class="logosatt hero d-flex align-items-center" data-aos="fade-up" id="home">
+    <img src="assets/img/satt.png" alt="">
+    <div>
+    <h3>Startup Acceleration Think Tank</h3>
+    <p>VSSUT , BURLA</p>
+    </div>
+    <div data-aos="fade-up" data-aos-delay="600" id="explore">
+        <a href="#hero" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+          <span>Explore</span>
+          <i class="bi bi-arrow-right"></i>
+        </a>
+    </div>
+  </div>
+
 
 
   <!-- ======= About Us Section ======= -->
   
   <!-- === Hero Section === -->
   <section id="hero" class="hero d-flex align-items-center">
-
     <div class="container" id="aboutus">
+      <header class="section-header">
+        <h2>About Us</h2>
+      </header>
       <div class="row">
         <div class="col-lg-6 d-flex flex-column justify-content-center">
           <h1 data-aos="fade-up">StartUp Acceleration Think Tank</h1>
           <h2 data-aos="fade-up" data-aos-delay="400">SATT is a part of the Entrepreneurship cell which focuses on events, start-up, competitions, workshops which is organised in the same college or other institutions all over India. This aims to bring new start up ideas into field of entrepreneurship world.</h2>
-          <div data-aos="fade-up" data-aos-delay="600">
-            <div class="text-center text-lg-start">
-              <a href="#values" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
-                <span>Explore</span>
-                <i class="bi bi-arrow-right"></i>
-              </a>
-            </div>
-          </div>
+          
         </div>
         <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
           <img src="assets/img/hero-img.png" class="img-fluid" alt="">
@@ -103,7 +104,6 @@
   </section><!-- End Hero -->
 
   <!-- End About us -->
-
 
 
 
@@ -123,7 +123,7 @@
         <div class="row">
 
           <div class="col-lg-3 col-sm-6 mt-lg-0">
-            <div class="box" data-aos="fade-up" data-aos-delay="200">
+            <div class="box" data-aos="fade-up">
               <img src="assets//img/startupimg/convo.jpg" class="img-fluid" alt="">
               <h3>Convo</h3>
               <p>Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit. Et veritatis id.</p>
@@ -135,7 +135,7 @@
           </div>
 
           <div class="col-lg-3 col-sm-6 mt-lg-0">
-            <div class="box" data-aos="fade-up" data-aos-delay="400">
+            <div class="box" data-aos="fade-up" data-aos-delay="200">
               <img src="assets/img/startupimg/fxuav.jpg" class="img-fluid" alt="">
               <h3>FxUAV</h3>
               <p>This is a startup which aims to solve the fire problem in the best possible way.</p>
@@ -147,7 +147,7 @@
           </div>
 
           <div class="col-lg-3 col-sm-6 mt-lg-0">
-            <div class="box" data-aos="fade-up" data-aos-delay="600">
+            <div class="box" data-aos="fade-up" data-aos-delay="400">
               <img src="assets/img/startupimg/gohiking.jpg" class="img-fluid" alt="">
               <h3>GoHiking</h3>
               <p>One stop solution for your all adventure needs.</p>
@@ -159,7 +159,7 @@
           </div>
 
           <div class="col-lg-3 col-sm-6 mt-lg-0">
-            <div class="box" data-aos="fade-up" data-aos-delay="800">
+            <div class="box" data-aos="fade-up" data-aos-delay="600">
               <img src="assets/img/startupimg/grapixifin.jpg" class="img-fluid" alt="">
               <h3>Graphixi</h3>
               <p>A multi disciplinary design studio that provides services related to design, decors and digital marketing.</p>
@@ -172,7 +172,7 @@
 
 
           <div class="col-lg-3 col-sm-6 mt-lg-0">
-            <div class="box" data-aos="fade-up" data-aos-delay="400">
+            <div class="box" data-aos="fade-up" data-aos-delay="200">
               <img src="assets/img/startupimg/sew.jpg" class="img-fluid" alt="">
               <h3>S.E.W</h3>
               <p>S.E.W is a box full of knowledge and ideas which has the potential to wave the mind of the child towards learning.</p>
@@ -184,7 +184,7 @@
           </div>
 
           <div class="col-lg-3 col-sm-6 mt-lg-0">
-            <div class="box" data-aos="fade-up" data-aos-delay="600">
+            <div class="box" data-aos="fade-up" data-aos-delay="400">
               <img src="assets/img/startupimg/walkingpal.jpg" class="img-fluid" alt="">
               <h3>WalkingPal</h3>
               <p>Get your Walking Buddy anytime, anywhere!</p>
@@ -203,11 +203,13 @@
   <!-- End Startup -->
 
   <!--     Upcoming Events    -->
-  <div class="upcoming" id="events">
+  <div data-aos="fade-up" class="upcoming " id="events">
   <div class="container" id="upcom">
-    <h2>Upcoming Events</h2>
+    <header class="section-header">
+      <h2>Upcoming Events</h2>
+    </header>
     <div class="row">
-        <div class="col-lg-4">
+        <div class="col-lg-4" data-aos="fade-up">
             <div class="card card-margin">
                 <div class="card-header no-border">
                     <h5 class="card-title">MOM</h5>
@@ -236,7 +238,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
             <div class="card card-margin">
                 <div class="card-header no-border">
                     <h5 class="card-title">MOM</h5>
@@ -265,7 +267,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4" data-aos="fade-up" data-aos-delay="400">
             <div class="card card-margin">
                 <div class="card-header no-border">
                     <h5 class="card-title">MOM</h5>
@@ -294,7 +296,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
           <div class="card card-margin">
               <div class="card-header no-border">
                   <h5 class="card-title">MOM</h5>
@@ -323,7 +325,7 @@
               </div>
           </div>
       </div>
-      <div class="col-lg-4">
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="400">
         <div class="card card-margin">
             <div class="card-header no-border">
                 <h5 class="card-title">MOM</h5>
@@ -352,7 +354,7 @@
             </div>
         </div>
     </div>
-    <div class="col-lg-4">
+    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="400">
       <div class="card card-margin">
           <div class="card-header no-border">
               <h5 class="card-title">MOM</h5>
@@ -395,7 +397,6 @@
   <div class="container" data-aos="fade-up">
 
     <header class="section-header">
-      <h2>Contact</h2>
       <p>Contact Us</p>
     </header>
 
@@ -483,14 +484,13 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>FlexStart</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>Ecell, VSSUT</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/flexstart-bootstrap-startup-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
   </footer><!-- End Footer -->
