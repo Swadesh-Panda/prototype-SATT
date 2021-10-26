@@ -172,6 +172,12 @@ section {
   font-family: "Nunito", sans-serif;
   margin-top: 3px;
 }
+/*------------------------------------------
+# Logo
+----------------------------------------------*/
+#home{
+  background: url(../img/stbck.jpg) top center no-repeat;
+}
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -306,10 +312,11 @@ section {
   position: fixed;
   overflow: hidden;
   top: 0;
+  height: 50%;
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(1, 22, 61, 0.9);
+  background: rgba(1, 22, 61, 0.568);
   transition: 0.3s;
 }
 .navbar-mobile .mobile-nav-toggle {
@@ -458,6 +465,7 @@ section {
   padding: 30px;
   box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
   text-align: center;
+  background-color: white;
   transition: 0.3s;
   height: 100%;
 }
@@ -483,6 +491,7 @@ section {
   color: #444444;
   background: #fafbff;
   padding: 30px;
+  height: 200px;
 }
 .contact .info-box i {
   font-size: 38px;
@@ -791,8 +800,14 @@ section {
 
     left:0px;
   }
+  .logosatt h3{
+    position: relative;
+    top:-50px;
+  }
   .logosatt p{
     width: fit-content;
+    position: relative;
+    top:-40px;
     border-bottom: 3px solid black;
   }
 }
@@ -839,10 +854,17 @@ section {
   box-shadow: 5px 10px 15px rgba(1, 42, 112, 0.308);
   transition: 0.3s;
 }
+
+#values{
+  background-color: whitesmoke;
+}
+#values1{
+  background-color: whitesmoke;
+}
 .values .box{
 
   text-align: center;
-  padding: 30px 20px 0px 20px;
+  padding: 30px 20px 20px 20px;
   transition: all 0.3s;
 }
 
