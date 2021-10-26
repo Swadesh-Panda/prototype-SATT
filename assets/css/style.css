@@ -745,11 +745,27 @@ section {
 # Custom
 --------------------------------------------------------------*/
 
+.section-header h2{
+  font-size: 200%;
+}
+.hero h2:nth-child(1){
+  position: relative;
+  top: -60px;
+  color: #4154f1;
+}
 .logosatt{
   width: 100%;
   height: 100vh;
   display: flex;
   justify-content: center;
+}
+#explore{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-bottom: 0px;
+
 }
 .logosatt img{
   width: 250px;
@@ -763,7 +779,6 @@ section {
 .logosatt h3{
   font-weight: 1000;
 }
-
 @media (max-width: 991px) {
   .logosatt{
     flex-direction: column;
@@ -824,11 +839,6 @@ section {
   box-shadow: 5px 10px 15px rgba(1, 42, 112, 0.308);
   transition: 0.3s;
 }
-
-
-.values .section-header h2{
-  font-size: 200%;
-}
 .values .box{
 
   text-align: center;
@@ -853,12 +863,9 @@ section {
 }
 
 .explore{
-  box-shadow: inset 0px -20px 100px rgb(199, 199, 199);
   position: absolute;
-  bottom: 0px;
-  left: 0px;
-  height: 100px;
-  width: 100%;
+  bottom: 3px;
+  right: 10px;
 
   opacity: 0;
   transition : 0.3s;
